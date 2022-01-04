@@ -1,0 +1,229 @@
+body{
+	font-family: "Montserrat";
+	text-align:center;
+}
+
+h1
+{	
+	font-family:  'Montserrat', sans-serif;
+	font-weight:900;
+	font-size: 3.4rem;
+	line-height:1.5;	
+}
+
+h2
+{
+	font-family:  'Montserrat', sans-serif;
+	font-weight:600;
+	font-size: 3rem;
+	line-height:1.5;
+}
+
+h3
+{	font-family:  'Montserrat', sans-serif; 
+	font-weight:700;
+	font-size:1.5rem;
+	
+}
+
+p
+{
+	color: #8f8f8f;	
+}
+
+/* Title section*/
+
+#title
+{
+	background-color:#ff4c68;
+	color: #fff;
+	text-align:left;
+}
+
+#title .container-fluid
+{
+	padding:3% 15% 7%;
+}
+
+.container-fluid
+{
+	padding: 7% 15%;
+
+}
+
+
+
+/*Navigation Bar*/
+.navbar
+{
+	padding: 0 0 4.5rem;	
+}
+
+.navbar-brand
+{
+font-family: "Ubuntu";
+font-size: 2.5rem ;
+font-weight: bold;
+
+}
+
+.nav-item
+{
+	padding: 0 18px;
+}
+
+.nav-link
+{
+	font-family: "Montserrat-Light", sans-serif;
+	font-size:1.2rem;
+}
+
+.download-btn
+{
+	margin: 5% 3% 5% 0;
+}
+
+.img-dog
+{
+	width:60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+
+
+/* features section*/
+
+
+
+#features
+{
+	background-color: #fff;
+	position: relative;
+	z-index: 1;
+}
+
+.FeatSECcol
+{
+	padding:4.5%;
+	
+}
+
+.icons
+{
+	font-size:4rem;
+	color:#ef8172;
+	margin:auto;
+	padding:5%;
+}
+
+.icons:hover
+{
+	
+	color:#ef4c68;
+	}
+	
+	
+	
+/* testimonial section*/
+
+
+
+#testimonials
+{
+	background-color: #ef8172;
+	color:#fff;
+}
+
+.testimonial-image
+{
+	width: 10%;
+	border-radius:100%;
+	margin:20px;
+}
+
+/* press section*/
+
+
+#press
+{
+	background-color: #ef8172;
+	padding-bottom:3%;
+	
+}
+
+ .press-img
+ {
+	width:15%;
+	margin:20px 20px 50px;
+ } 
+ 
+ 
+ /* pricing section*/
+ 
+ 
+ #pricing
+ {
+	 padding:100px;
+	 text-align: center;
+ }
+ 
+ .pricingCol 
+ {
+	 padding: 3% 2%;
+ }
+ 
+ /* Cta section*/
+ 
+ #cta
+ {
+	 background-color: #ff4c68;
+	 font-size: 3rem;
+	 padding:50px 0;
+	
+	 
+ }
+ 
+ .lastheading
+ {	 font-family: "Montserrat";
+	font-size:4rem;
+	font-weight: 900;
+	line-height:5rem;
+	 color:#fff;
+	 padding:50px auto 0;
+ }
+ 
+/* Footer section*/
+
+ #footer1
+ {
+	 background-color:#fff;
+	
+	 font-size:1.2rem
+	 
+ }
+ 
+ .iconsL
+ {
+	 font-size: 1.5rem;
+	 margin:auto;
+	 padding: 3% 10px 20px; 
+ }
+
+/* media control section*/
+
+ @media (max-width: 1024px)
+ {
+	 
+	 .img-dog
+{
+	position: static;
+	transform: rotate(0);
+	
+}
+	
+	#title
+	{
+		text-align:center;
+	}
+	}
